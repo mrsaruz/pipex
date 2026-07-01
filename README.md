@@ -1,9 +1,9 @@
-# 🧩 Pipex
+# Pipex
 
 **Pipex** is a project from the 42 curriculum that recreates the behavior of shell pipes (`|`) in C.  
 It’s a simplified version of how a shell connects multiple commands so that the output of one becomes the input of another.
 
-### 💡 Objective
+### Objective
 The goal is to understand and implement Unix process management and file descriptors, focusing on:
 - **`fork()`** to create child processes  
 - **`pipe()`** to connect them  
@@ -16,13 +16,13 @@ The goal is to understand and implement Unix process management and file descrip
 - Execute both commands in separate processes.
 - Handle all necessary redirections and clean up resources.
 
-### 🧰 Key concepts
+### Key concepts
 - Process creation and synchronization
 - File descriptor management
 - Redirections (`<`, `>`) and pipes (`|`)
 - Error handling and memory management
 
-### 🧠 Program behavior
+### Program behavior
 Your program must mimic this shell command:
 ```bash
 < infile cmd1 | cmd2 > outfile
@@ -42,7 +42,7 @@ This should behave exactly like:
 ```bash
 $ < infile grep hello | wc -l > outfile
 ```
-### ⚙️ Implementation hints
+### Implementation hints
 - Use pipe() to create a communication channel between processes.
 - Use fork() to create separate processes for cmd1 and cmd2.
 - Use dup2() to redirect standard input/output.
