@@ -52,4 +52,10 @@ $ < infile grep hello | wc -l > outfile
 - Close unused file descriptors in each process to avoid leaks.
 - Always check for errors in system calls.
 
+---
 
+### License
+
+This project is part of the 42 School curriculum. Feel free to reference but please don't copy directly for your own 42 projects.
+
+---
