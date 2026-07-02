@@ -1,3 +1,5 @@
+*This project has been created as part of the 42 curriculum by __adruz-to__*
+
 # Pipex
 
 **Pipex** is a project from the 42 curriculum that recreates the behavior of shell pipes (`|`) in C.  
